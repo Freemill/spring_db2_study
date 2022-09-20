@@ -11,7 +11,8 @@ import org.springframework.context.annotation.Profile;
 
 @Slf4j
 //@Import(MemoryConfig.class)
-@Import(JpaConfig.class)
+//@Import(JpaConfig.class)
+@Import(SpringDataJpaConfig.class)
 @SpringBootApplication(scanBasePackages = "hello.itemservice.web")
 public class ItemServiceApplication {
 
